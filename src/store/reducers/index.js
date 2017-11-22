@@ -1,7 +1,7 @@
-import imageReducer from './imageReducer'
-import videoReducer from './videoReducer'
+import images from './imageReducer'
+import videos from './videoReducer'
 
 export default {
-    imageReducer,
-    videoReducer
+    images,
+    videos
 }

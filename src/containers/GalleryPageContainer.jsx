@@ -20,7 +20,7 @@ class MediaGalleryPage extends Component {
 
     // Dispatches *searchMediaAction*  immediately after initial rendering
     componentDidMount() {
-        this.props.dispatch(searchMediaAction('rain'))
+        this.props.dispatch(searchMediaAction('Star wars'))
     }
 
     // Dispatches *selectImageAction* when any image is clicked

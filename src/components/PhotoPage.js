@@ -11,7 +11,7 @@ const PhotosPage = ({ images, onHandleSelectImage, selectedImage }) => (
         </div>
         <div className="images-page__previews">
             {images.map((image, id) => (
-                <div>
+                <div key={id}>
                     <img src={image.mediaUrl} alt={image.title} />
                 </div>
             ))}
